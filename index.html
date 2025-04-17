@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TravelMate</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>TravelMate</h1>
+    <p>Твой персональный ассистент в путешествиях</p>
+  </header>
+
+  <main>
+    <section class="form-section">
+      <h2>Планируй маршрут</h2>
+      <form id="routeForm">
+        <input type="text" id="city" placeholder="Город назначения" required>
+        <select id="interest">
+          <option value="culture">Культура</option>
+          <option value="nature">Природа</option>
+          <option value="food">Еда</option>
+          <option value="party">Ночная жизнь</option>
+        </select>
+        <button type="submit">Сгенерировать маршрут</button>
+      </form>
+    </section>
+
+    <section id="result">
+      <!-- Здесь появятся результаты -->
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
